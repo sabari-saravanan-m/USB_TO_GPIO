@@ -19,10 +19,9 @@ $ pip install C:\..\Downloads\usb_to_gpio
 
 ```python
 # import files
-from usb_to_gpio import i2c, spi, spistream, dio
+import usb_to_gpio
 
 # import class instance and play
-import usb_to_gpio                                                              # Importing USB_TO_GPIO file
 
 TI = usb_to_gpio.USB_TO_GPIO()                                                  # Initialize & opens an instrument reference
 TI.configure(pec_enabled=False)                                                 # Selects 100-KHz/400-KHz bus speed & PEC mode
