@@ -6,5 +6,5 @@ url='#',
 author='SABARI SARAVANAN M',
 author_email='saravana.braven@gmail.com',
 license='SN',
-packages=["USB_TO_GPIO"],
+packages=["usb_to_gpio"],
 zip_safe=False)
